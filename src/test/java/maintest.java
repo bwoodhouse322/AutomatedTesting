@@ -10,6 +10,8 @@ public class maintest {
     @Before
     public void setUp(){
         chrome = new ChromeDriver();
+
+
     }
 
 
@@ -17,8 +19,6 @@ public class maintest {
     public void tearDown(){
         chrome.quit();
     }
-    @Test
-    public void firstTest(){
-        chrome.navigate().to("https://www.google.co.uk");
-    }
+
+
 }
