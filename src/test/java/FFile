@@ -1,0 +1,11 @@
+
+
+
+
+  Feature: My Feature File
+
+
+    Scenario: My First Feature File
+      Given i want to visit www.qa.com
+      When i click on sign in button
+      Then i am taken to sign in screen
