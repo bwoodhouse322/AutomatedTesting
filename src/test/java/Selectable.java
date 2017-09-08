@@ -22,7 +22,7 @@ public class Selectable {
     @BeforeClass
     public static void meme(){
         String property = System.getProperty("user.dir");
-        ReportDetails reportDetails = new ReportDetails(property + "\\TestReport",
+        ReportDetails reportDetails = new ReportDetails(property + "\\TestReport3",
                 "Basic Extent Report","Basic Report");
         reportManager = new ExtentReportManager(ExtentReportManager.ReportType.HTML,reportDetails);
     }

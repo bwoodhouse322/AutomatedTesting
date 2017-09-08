@@ -23,7 +23,7 @@ public class Resizable {
     public void setUp() {
         driver = chooseDriver("chrome");
         String property = System.getProperty("user.dir");
-        ReportDetails reportDetails = new ReportDetails(property + "\\TestReport",
+        ReportDetails reportDetails = new ReportDetails(property + "\\TestReport2",
                 "Basic Extent Report","Basic Report");
         reportManager = new ExtentReportManager(ExtentReportManager.ReportType.HTML,reportDetails);
         builder = new Actions(driver);

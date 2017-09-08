@@ -44,6 +44,8 @@ public class MyStoreTest {
 
     public WebDriver chooseDriver(String dr) {
         WebDriver driver1;
+
+
         if (dr.equals("chrome")) {
             driver1 = new ChromeDriver();
             return driver1;
@@ -114,7 +116,7 @@ public class MyStoreTest {
 
         MyStoreHome.signIn.click();
 
-        MyStoreHome.emailBox.sendKeys("banjowoodsocks3@gmail.com");
+        MyStoreHome.emailBox.sendKeys("banjowoodsocks5@gmail.com");
         MyStoreHome.submitBut.click();
 
 
